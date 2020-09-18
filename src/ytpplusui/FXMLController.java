@@ -403,7 +403,7 @@ public class FXMLController {
     void openDiscord(ActionEvent event) {
         try {
         if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
-            Desktop.getDesktop().browse(new URI("https://discord.gg/mAwQQt7"));
+            Desktop.getDesktop().browse(new URI("http://discord.gg/bzhzRmg"));
         }
         } catch (Exception ex) {} //how does that even happen
     }
@@ -412,7 +412,7 @@ public class FXMLController {
     void openArcticZone() {
         try {
         if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
-            Desktop.getDesktop().browse(new URI("https://arctic.zone/"));
+            Desktop.getDesktop().browse(new URI("http://ytp-plus.github.io"));
         }
         } catch (Exception ex) {} //how does that even happen
     }
